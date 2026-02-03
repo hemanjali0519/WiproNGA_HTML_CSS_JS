@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Event Registration System</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+    }
+    li {
+      cursor: pointer;
+      margin: 5px 0;
+    }
+    li:hover {
+      color: blue;
+    }
+    button {
+      margin-right: 10px;
+      margin-top: 10px;
+    }
+    #message {
+      margin-top: 15px;
+      font-weight: bold;
+      color: green;
+    }
+  </style>
+</head>
+<body>
+
+  <h2>Event List</h2>
+  <ul id="eventList"></ul>
+
+  <h3 id="selectedEvent">Select an event</h3>
+
+  <button id="registerBtn">Register</button>
+  <button id="unregisterBtn">Unregister</button>
+
+  <h3>Add New Event</h3>
+  <input type="text" id="newEventName" placeholder="Enter event name">
+  <button id="addEventBtn">Add Event</button>
+
+  <p id="message"></p>
+
+<link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+</body>
+</html>

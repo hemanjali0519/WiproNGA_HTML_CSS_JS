@@ -1,0 +1,92 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f4f6f8;
+  margin: 0;
+  padding: 20px;
+}
+
+h2, h3 {
+  color: #333;
+}
+
+/* Event list */
+ul {
+  list-style-type: none;
+  padding: 0;
+  max-width: 400px;
+}
+
+li {
+  background: #ffffff;
+  margin: 8px 0;
+  padding: 10px 15px;
+  border-radius: 6px;
+  cursor: pointer;
+  border: 1px solid #ddd;
+  transition: all 0.2s ease;
+}
+
+li:hover {
+  background-color: #e8f0fe;
+  color: #1a73e8;
+}
+
+/* Selected event text */
+#selectedEvent {
+  margin-top: 15px;
+  color: #1a73e8;
+}
+
+/* Buttons */
+button {
+  padding: 8px 14px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 10px;
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+/* Button colors */
+#registerBtn {
+  background-color: #28a745;
+  color: white;
+}
+
+#registerBtn:hover {
+  background-color: #218838;
+}
+
+#unregisterBtn {
+  background-color: #dc3545;
+  color: white;
+}
+
+#unregisterBtn:hover {
+  background-color: #c82333;
+}
+
+#addEventBtn {
+  background-color: #007bff;
+  color: white;
+}
+
+#addEventBtn:hover {
+  background-color: #0069d9;
+}
+
+/* Input field */
+input[type="text"] {
+  padding: 8px;
+  width: 250px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-top: 8px;
+}
+
+/* Message text */
+#message {
+  margin-top: 15px;
+  font-weight: bold;
+}
