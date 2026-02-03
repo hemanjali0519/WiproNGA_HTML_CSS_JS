@@ -1,0 +1,55 @@
+/* Page background  */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #53b7ed;
+    display: flex;  /*make centering easy*/
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Main white box */
+.container {
+    background-color: white;
+    padding: 25px;
+    width: 400px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Heading */
+h2 {
+    margin-bottom: 15px;
+}
+
+/* Text area */
+textarea {
+    width: 100%;
+    height: 120px;
+    padding: 10px;
+    resize: none;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+    box-sizing: border-box; /*gap around box*/
+
+}
+
+/* Speak button */
+button {
+    margin-top: 15px;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 6px;
+    background-color: #4CAF50;
+    color: rgb(54, 205, 147);
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* Hover effect */
+button:hover {
+    background-color: #cc79b0;
+}
