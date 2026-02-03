@@ -1,0 +1,10 @@
+/* Page background */
+body {
+    background-color: #f8f9fa;
+}
+
+/* Card width */
+.card {
+    max-width: 500px;
+    margin: auto;
+}
