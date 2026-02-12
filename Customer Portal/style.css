@@ -1,0 +1,12 @@
+body {
+  background-color: #f4f6f9;
+  font-family: Arial, sans-serif;
+}
+
+.card {
+  border-radius: 10px;
+}
+
+video, audio {
+  border-radius: 6px;
+}
